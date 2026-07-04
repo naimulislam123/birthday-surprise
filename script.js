@@ -1,0 +1,135 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(180deg,#090422,#1c0d42,#ff7eb3);
+height:100vh;
+overflow:hidden;
+color:#fff;
+}
+
+.scene{
+display:none;
+height:100vh;
+width:100%;
+padding:20px;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+position:absolute;
+top:0;
+left:0;
+}
+
+.active{
+display:flex;
+}
+
+#stars{
+position:fixed;
+width:100%;
+height:100%;
+background:
+radial-gradient(white 1px,transparent 1px);
+background-size:40px 40px;
+animation:moveStars 20s linear infinite;
+opacity:.4;
+}
+
+@keyframes moveStars{
+from{
+transform:translateY(0);
+}
+to{
+transform:translateY(40px);
+}
+}
+
+.typing{
+font-size:32px;
+max-width:700px;
+color:#fff;
+margin-bottom:20px;
+}
+
+button{
+margin-top:25px;
+padding:15px 35px;
+border:none;
+border-radius:50px;
+background:#ff4f9a;
+color:white;
+font-size:18px;
+cursor:pointer;
+box-shadow:0 0 20px hotpink;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+#giftBox{
+font-size:150px;
+animation:bounce 1.2s infinite;
+cursor:pointer;
+filter:drop-shadow(0 0 25px pink);
+}
+
+@keyframes bounce{
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(-20px);}
+}
+
+.name{
+font-family:'Great Vibes',cursive;
+font-size:60px;
+color:#ffd5ea;
+text-shadow:0 0 20px hotpink;
+margin-bottom:20px;
+}
+
+.gallery{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+justify-content:center;
+margin:20px 0;
+}
+
+.photo{
+width:150px;
+height:150px;
+border-radius:20px;
+object-fit:cover;
+border:4px solid white;
+box-shadow:0 0 20px hotpink;
+transition:.5s;
+}
+
+.photo:hover{
+transform:scale(1.08) rotate(-3deg);
+}
+
+.letter{
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(12px);
+padding:20px;
+border-radius:20px;
+max-width:700px;
+margin-top:20px;
+line-height:1.8;
+}
+
+.love{
+margin-top:30px;
+color:#ffd5ea;
+font-family:'Great Vibes',cursive;
+font-size:42px;
+text-shadow:0 0 20px hotpink;
+}
