@@ -126,3 +126,30 @@ giftBox.addEventListener("click", () => {
 replayBtn.onclick = () => {
     location.reload();
 };
+function fireworks(){
+
+    for(let i=0;i<25;i++){
+
+        const spark=document.createElement("div");
+
+        spark.innerHTML="✨";
+
+        spark.style.position="fixed";
+        spark.style.left=Math.random()*100+"vw";
+        spark.style.top=Math.random()*100+"vh";
+        spark.style.fontSize="30px";
+        spark.style.pointerEvents="none";
+
+        document.body.appendChild(spark);
+
+        setTimeout(()=>spark.remove(),1500);
+
+    }
+
+}
+
+giftBox.addEventListener("click",()=>{
+
+    setTimeout(fireworks,1200);
+
+});
