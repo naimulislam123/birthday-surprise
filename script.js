@@ -113,3 +113,16 @@ opacity:0;
 `;
 
 document.head.appendChild(style);
+const replayBtn = document.getElementById("replayBtn");
+
+giftBox.addEventListener("click", () => {
+
+    setTimeout(() => {
+        replayBtn.style.display = "block";
+    }, 3000);
+
+});
+
+replayBtn.onclick = () => {
+    location.reload();
+};
