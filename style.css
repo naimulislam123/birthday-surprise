@@ -133,3 +133,17 @@ font-family:'Great Vibes',cursive;
 font-size:42px;
 text-shadow:0 0 20px hotpink;
 }
+#replayBtn{
+position:fixed;
+bottom:20px;
+right:20px;
+padding:12px 20px;
+border:none;
+border-radius:30px;
+background:#ff4f9a;
+color:#fff;
+font-size:16px;
+display:none;
+box-shadow:0 0 15px hotpink;
+cursor:pointer;
+}
