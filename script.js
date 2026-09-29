@@ -7,19 +7,18 @@ const giftBox = document.getElementById("giftBox");
 const music = document.getElementById("music");
 
 const message = document.getElementById("message");
-const letter = `Happy Birthday, Jesmin! 🎉🤍
+const letter = `Happy Birthday, Alifa! 🎉🤍
 
 Many many happy returns of the day! 🥳💖
-
-আজ তোমার জীবনের সবচেয়ে special দিনগুলোর একটি। এই সুন্দর দিনে আল্লাহর কাছে আমার একটাই দোয়া—তোমার জীবনের প্রতিটি মুহূর্ত যেন happiness, peace, success আর endless blessings-এ ভরে থাকে। তুমি সব সময় সুস্থ থাকো, ভালো থাকো, আর তোমার মুখের হাসিটা যেন কখনো ম্লান না হয়।
-
-May Allah bless you with a beautiful life, good health, endless joy, and countless opportunities. তোমার সব dreams, wishes আর goals যেন এক এক করে সত্যি হয়। জীবনের প্রতিটি নতুন chapter তোমার জন্য আরও সুন্দর আর সফল হয়ে উঠুক।
-
-Thank you for being such a wonderful friend. তোমার মতো একজন মানুষকে জীবনে পাওয়া সত্যিই অনেক সুন্দর একটি ব্যাপার। সব সময় নিজের মতো থেকো, keep smiling, keep shining, and never stop believing in yourself.
+আমার ছোট্ট বোন, তোমার হাসি যেন সবসময় এমনই সুন্দর থাকে। 🌸
+আল্লাহ তোমাকে সুস্থ, সুখী ও সুন্দর জীবন দান করুন। 🤲✨
+তোমার প্রতিটি স্বপ্ন পূরণ হোক, জীবনের প্রতিটি দিন আনন্দে কাটুক। 🥰
+তুমি সবসময় এভাবেই হাসিখুশি থেকো এবং অনেক দূর এগিয়ে যাও।
+, keep smiling, keep shining, and never stop believing in yourself.
 
 Enjoy every moment of your special day, make lots of beautiful memories, and celebrate it with the people who love you the most.
 
-Once again, Happy Birthday, Jesmin! 🎂🎈✨
+Once again, Happy Birthday, Alifa! 🎂🎈✨
 
 Wishing you a year full of love, laughter, success, and happiness.
 
